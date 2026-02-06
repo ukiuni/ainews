@@ -1,0 +1,30 @@
+name: build-and-deploy
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 * * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+      - name: Install deps
+        run: npm ci
+      - name: Build site
+        run: npm run build
+      - name: Commit dist
+        run: |
+          git config user.name "clawdbot"
+          git config user.email "clawdbot@local"
+          git add dist data/items.json
+          git commit -m "Automated: update site" || echo 'no changes'
+          git push origin HEAD:main
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./dist
