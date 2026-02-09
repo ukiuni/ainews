@@ -1,0 +1,566 @@
+[
+  {
+    "title": "YouTube TV’s sports-focused package will cost $64.99 / month",
+    "link": "https://www.theverge.com/news/875751/youtube-tv-custom-channel-packages-pricing",
+    "pubDate": "2026-02-09T15:27:56.000Z",
+    "source": "The Verge",
+    "summary": "YouTube TV has shared more details about the custom channel packages it will start rolling out this week. The new packages are cheaper than YouTube TV's standard $82.99 / month plan, and will span sports, entertainment, and news. Here's a breakdown of each package:\nSports Plan ($64.99 / month): Includes access to \"major broadcasters\" and sports networks, including FS1, NBC Sports Network, ESPN, and the new ESPN Unlimited streaming service.\nSports + News Plan ($71.99 / month): Includes everything in the sports bundle with news networks, including CNBC, Fox News, MSNBC, CNN, CSPAN, Bloomberg, and Fox Business. \nEntertainment Plan ($54. …\n\nRead the full story at The Verge.",
+    "short_summary": "YouTube TV has shared more details about the custom channel packages it will start rolling out this week. The new packages are cheaper than YouTube TV's standard $82.99 / month plan, and will span ...",
+    "translated_title_ja": ""
+  },
+  {
+    "title": "Siemens CEO Roland Busch’s mission to automate everything",
+    "link": "https://www.theverge.com/podcast/875233/siemens-ceo-roland-busch-ai-automation-digital-twins-nato-tariffs",
+    "pubDate": "2026-02-09T15:00:00.000Z",
+    "source": "The Verge",
+    "summary": "Today, I’m talking with Roland Busch, who is the CEO of Siemens.\nSiemens is one of those absolutely giant, extremely important, but fairly opaque companies we love to dig into on Decoder. At a very basic, reductive level, Siemens makes the hardware and software that allow other companies to run and automate their stuff. Everyone has seen the Siemens logo somewhere, whether it’s under the hood of their cars, stamped on control systems in fancy buildings, or scattered across factory floors. But since it’s not really a consumer-facing company, it’s hard to know what ties all these ideas together — and what some 320,000 Siemens employees across the world are actually working on. \nHow all those people are organized and work together is wildly complicated. Roland and I spent some real time just talking through the Siemens corporate structure, which, for my true Decoderheads out there, was incredibly fascinating. \n\n\n\nVerge subscribers, don’t forget you get exclusive access to ad-free Decoder wherever you get your podcasts. Head here. Not a subscriber? You can sign up here. \nWe also spent a lot of time talking about automation broadly and what happens as AI brings automation from the physical world of factories into the digital world of accounting and procurement — the things that help decide what factories should be doing. Roland’s vision is for Siemens to automate the whole factory process, upstream and downstream of actually making things. And you’ll hear him describe that outcome as fairly utopian: a smooth, seamless, optimal operation. Very German. But I wanted to press him on how dystopian it sounds to me. Because in Roland’s vision, it seems like there’s a whole class of people who just… don’t have jobs anymore. And the ones who do have jobs don’t really have a whole lot of autonomy or fulfillment from them, but basically just serve as the hands for the all-seeing AI. So I asked him fairly directly about that.\nAnd if that’s not already all complicated enough: Siemens is a government and defense contractor on both sides of the Atlantic and a company whose overall growth is directly tied to free trade and globalization in the postwar era. A lot is going on right now that might challenge how the world works, especially if tensions keep rising between the US and Europe, and so I had to ask him point-blank: Do you think about what you’ll do if NATO collapses? Because that’s not as far-fetched a question as it used to be.\nThere’s a lot in this one, and Roland was game for it all. I think you’ll leave with a lot to think about — certainly more to think about whenever you see all those Siemens logos.\nOkay: Siemens CEO Roland Busch. Here we go.\n\n\nThis interview has been lightly edited for length and clarity.\nRoland Busch, you are the president and CEO of Siemens. Welcome to Decoder.\nThank you, Nilay. Nice to meet you.\nIt’s nice to meet you as well. There’s a lot to talk about. Siemens is a huge company. It has a long history. You’ve been in a lot of businesses, you’ve been out of a lot of businesses. You have worked there since the ’90s. The world is very complicated right now, and Siemens is a very big, very complicated multinational operating in that world. I’m curious how you are thinking of all that.\nSo let me just start at the start: Siemens isn’t a consumer company. I think a lot of Decoder listeners have seen the logo, but maybe don’t understand the company. How would you describe Siemens today? What is the company?\nIndeed, it’s not that easy. We have come a long way. It’s been more than 170 years since the company was founded, and we made so many changes in our portfolio and in our company. Actually, when people talk about it, I say there’s one constant in our history, which is that we reinvented ourselves over and over again. And absolutely, we are now in the midst of another reinvention or transformation with one difference. This is the fastest and most fundamental one we ever had because of technology. And then people ask, “What is Siemens about? Because you now have Siemens Healthineers, you have Siemens Energy, you have Siemens?”\nAnd actually, it’s not that easy to describe. Siemens Healthineers has the task in its name. It’s about healthcare. Siemens Energy has the task in its name; it’s about energy. But Siemens is not that clear. So here is how I explain it. We transform, with our technology, every day for everyone. Okay, that doesn’t get you closer. But now, the point is that you have to look behind the curtain, and then you see what Siemens technology does.\nWhen you see a car passing by… Eventually, all cars will be touched by Siemens technology. It is either cars that are designed by our technology, or they are manufactured by it. Every third manufacturing line in the world is run by Siemens controls. If you walk through New York, you cannot walk a block without passing by a building that is automated by Siemens technology. I think we are controlling … I mean, something like a little bit less than 50 percent of electrons are touched by Siemens technologies in our distribution systems, low voltage systems. And if you talk about healthcare, if you get a scan somewhere in the world, the likelihood that it’s a Siemens CT or MR scan is a little bit shy of 50 percent. And this is what we do. We produce. We have technology which enables others to transform their everyday. And that is what Siemens is about.\nSo I listen to that, and I experience Siemens everywhere. I’m the person who pays attention to how a building is automated. I talk to a lot of car CEOs; I hear about Siemens as a supplier to the car industry quite a bit. It sounds like what you were describing basically is you operate things for people, or you build technologies or products that operate other things for people.\nThere are a lot of things in the world to operate. How do you organize the company? How do you think about where there’s opportunity and where there’s growth and investment, and then how do you think about your resources? Because it seems like we operate things for everyone. That’s a pretty wide remit that you could focus down in any number of ways.\nThis is an absolutely valid question because now we are active in so many different industries. It’s industries, manufacturing, process industries, but we are also in buildings, grids, and mobility. So people, trains, and signaling systems. The first basis of Siemens is — and this is where our value sits — in our technology platform, and in our design software. We have one of the largest software companies in the world. If it comes to industrial software, we are the largest. And with our software, you can build the most comprehensive physics-based digital twin of whatever product you do. And we are now expanding into molecules. So another one is automation technology, as talked about, or it can be for discrete process manufacturing. We also go for software-defined automation, which is kind of a disruption. Anything. We are the largest automation company. We are automating grids, we’re automating buildings, we’re automating signaling systems, we’re automating trains, and we are automating manufacturing. So the underlying technology is where the value is.\nNow, we are bringing this technology to different verticals, so markets. It’s the industrial markets, food and beverage, chemicals, automotive, machine builders, utilities, mobility operators, and the like. And then at this point, the domain know-how comes into play. So having technology is one thing, but having the domain know-how to deploy it, to talk customers’ language, is another one. And on top, quite obviously, is that the whole thing is now supercharged by AI technologies, which we are rolling in as we speak. We have a long history regarding AI. Actually, one of the first supercomputers to do machine learning algorithms was Synopsys. I mean, this was in the ’90s. Siemens had the most powerful one. This was the great-grandfather of the GPUs today.\nAnd since then, we have been working with artificial intelligence technologies, but this is now a new level that we want to bring it to. So the organization, obviously, we are organizing according to businesses. They are reflecting the markets we are acting in, but you have to look at it from the back, the underlying technology, including the data, which is super relevant.\nI’m very curious to talk to you about AI and automation. I think that’s very important. Digital twins, I’m curious about that. It seems like the future of automation is very rich. We’re moving from Siemens automating a lot of atoms, automating the physical world, to automating bits, and that’s a long conversation that I want to come to.\nI just want to stay focused on the company for one more turn here and ask the Decoder questions, because I feel like the structure of Siemens says a lot about the company itself. I was reading your last letter to shareholders. You were talking about how you’ve divested portfolio companies where you weren’t the best owner, you’re exiting some businesses, and you’re obviously investing in others. How is Siemens organized today? How is the company structured?\nWe run according to businesses. One is digital industries, which is all about the software, the automation piece. One is smart infrastructure. Here you’ll find our building technology, medium voltage, low voltage, but also the grid, grid automation, grid control, and grid soft control software. The third element is Siemens mobility, where we have our trains, high-speed locomotives, commuter, metro, light rail, but also rail infrastructure, including turnkey projects, which is part of that. And the last one, since we are still consolidating, is Siemens Healthineers, where we still hold some 70 percent. It is its own listed company, a DAX-listed company. We are about to let go. We announced a spinoff of 30 percent from 65-ish, but it’s a separate company. So that’s how we’re organized. Of course, we have our corporate organizations, like strategy. IT, we run horizontally. We have our M&A department, and I talked about our portfolio. So that’s what a corporation normally has.\nAnd maybe one more special thing is that we still have research. We still invest 8 percent of our revenue, so $6.5 billion, a portion of which goes into research advancements. We work on a quantum computer. We don’t build them, but we run on the software, the middleware, how to use it, and the applications. And we have also machine learning and KEI experts who are doing research there, like AI experts. So that’s roughly how the company runs. And then talking about regions, we have in total, including Healthineers, 320,000 people. We have 45,000 people sitting in the United States, 30,000 in China, 35,000 in India, and roughly 85,000 in Germany. It’s still a German company. There’s a lot of manufacturing here.\nThat’s a lot of people. \nIndeed.\nLet me ask you about that split between regions. I think a theme on Decoder recently, and you are a part of this trend, is that a lot of these companies are a lot bigger than people think. You described divisions, you described regions. Those are both potentially first-order organizations for companies, right? I talk to lots of CEOs, and regions are just the first-order organization. Other companies are divisions. You have both. How do those interact?\nYeah, I can tell you, this is a constant discussion because we have very strong regional leads. We have strong businesses. So this is a matrix, and every company has this matrix, and the first question is, which one is the predominant line? Is it the business or the regions? In our case, it’s a clear answer; it’s the businesses. So the businesses have the full P&L. Regions are, let’s say, the second derivative behind it. Still very strong. And we have, in some businesses, let’s take, for example, our low voltage business, switching technology, this business is fully run by regions. You have China, you have the United States, you have Europe, and this is their P&L. So roll it up by regions. If you talk about automation, the next level is still … It’s motion control for machine builders, it’s factory automation, it’s process automation, and then come the regions. Therefore, you still have a different kind of setup depending on the business on how we serve technologies.\nAnd then the third dimension, just to make it a little bit more complicated for you, is the verticals, because factory automation… Take factory automation, which is maybe the strongest automation business we have; they run into any kind of factory automation you can imagine. The discreet and hybrids, food and beverage, and automotive machines. Machine builders are by machine, control is another one, but then you have a lot of battery manufacturing, and you have semiconductors. Therefore, this is the third dimension to serve verticals, because each of them has a different language and different applications. So we are having a very, let’s say, three-dimensional matrix, but there’s a clear lead, and this is driven by the business lines.\nYeah. I ask everybody on Decoder how the businesses are structured. And the joke I always make is, if you tell me how the company is structured, I can tell you 80 percent of your problems. But in the case of Siemens, it seems like I’m still trying to figure it all out to even get to where the problems are. When you think about that organization, and you describe things like a common platform or shared innovation across these zones or the investments you need to make in AI, a lot of your competitors are new. They’re essentially functionally organized.\nYes.\nThere’s one person driving the business in the case of some of these startups. Siemens is very old. It’s organized divisionally, and then obviously, there are layers of organization between it. How do you think about investing in the core technologies, the core platforms in that structure? Because it seems like all of your divisions should be doing it, perhaps in redundant or repetitive ways.\nYeah, and you’re right. When I explain my organization, you can identify the problems or the opportunities, put it that way. And here comes the point. I talked about how we are investing $6.5 billion into R&D, and obviously, this goes into different businesses. And some of them have a higher share. This is 8 percent on average. Some of them are sitting on definitely more than 10 percent, 13 percent, 15 percent, some others are at 3 percent and 4 percent. So, capital allocation, is it R&D? Is it in CapEx, or also spending? That’s done business by business. Each of them has a business case, and we allocate capital. In some cases, we obviously want to allocate more capital in higher growth areas. And I talk about organic capital allocation if it comes to M&A. This is something that happens on the board. We come up with proposals, and we see where we want to spend more money and where we focus our M&A, and where we do not.\nBut then here comes the point, and this is the part of our ONE Tech company program. Actually, I started last year, together with my fellow board members, maybe one of the most fundamental transformations of our organizations, because you’re completely right, we are very much boxed. Below these businesses I talked about, like digital industries, we have software, and then we have automation. Automation is three boxes: factory automation, process automation, and motion control. Below that, we have even segments, so I just didn’t give you that complexity as well. We are very much boxed. And what we want to do is take layers out, so we bring that into bigger boxes. Actually, we are targeting six units. But then we also say we want to create fabrics, which is a kind of operating system where we have horizontal ones. So we have a data fabric, a technology fabric, and we have a sales fabric.\nSo the idea behind this fabric is it’s a thin layer, but it’s a very strong one where we are really scaling horizontally as much as we can. For sales fabric, for example, we want to use the same tools, the same nomenclature for customers. And believe it or not, if I ask today how much revenue we do with BMW, people have to run out and pile the numbers together. This stops now because we have one identifier for BMW, and with a push of a button, I know what to do. So they serve the same sales methodology. Also, the customer journeys should all be alike. Technology fabric is that we don’t do things over and over again. When we talk about a digital platform where we sell, we build it only once and sell our portfolio.\nSo this is a change. We are unboxing our organization in two little boxes. And the reason is… Number one is technology, and AI in particular doesn’t respect silos. AI doesn’t respect data silos, doesn’t respect any kind of boundaries. The world is squeezing out the small. You see that this is adding more and more, and the more data you have, the more capabilities you have, the stronger you are. It’s a fact. Look at the big companies. Therefore, we have to play to the strengths of Siemens, and this requires a different way of running this company. This is behind our ONE Tech company program, which is really pulling in horizontally as much as we can, yet respecting different go-to-markets and different kinds of technologies or applications of technologies, depending on the verticals we are serving. So, not losing our strengths, which we have built over so many years, while scaling horizontally. Does it make sense?\nIt does. I’ve never been so excited to talk about structure with anyone as I have been with you, because that seems very hard. Well, it seems like what you’re describing to me is a multi-hundred-year-old company that has traditionally been very divisional, trying to get to some functional structures so that you can move faster. And that traditionally has come with culture cost, it has come with disruption inside the company, it’s come with inertia. How are you dealing with that at a company the size of Siemens? There are 320,000 people. They can’t all be happy with you.\nIt’s hard. It’s hard. So where do you start? Give a little bit of insight into how we did in the past and how we do it right now with our ONE Tech company program. In the past, we had many restructurings and many changes. The point was a managing board, these are typically something, but we have now seven people, and we used to have 15 or more, whatever. In the past, these guys were going together with their strategies in a room, defining a new structure, laying out a new org chart, and then, “Dear colleagues, this is where we want to go, and we reshuffle.” Okay. You can imagine how that goes down. This time, we created a north star where we want to be. The north star is basically what I sketched to you, these fabrics, the businesses, but allow them to focus on what they need to do, focus on their customers, on their applications, but yet we want to get horizontals into it.\nAnd then we said, “This is a north star and here are, we call it tracks, the tracks to the north star. These are the points where we really want to touch.” For example, our CRM system for automation was completely scattered. We want to do that, and this is a blueprint for the whole company, which can go on and on. And then we engaged people to say, “Let’s go,, and you work with us now on these tracks and how to change it.” That means we give the people an opportunity to contribute, to bring their ideas, but we have a clear idea of where we want to go in order to move first. Secondly, you obviously need to communicate a lot. You have to explain what you do because you’re describing something where people don’t know where it goes; they’re not experienced to work that way. But you have to talk about it over and over again, explain why we do it, what the benefits are, and what changes for the people.\nAnd for some, they said, “I don’t experience any change.” “Yes, because we don’t touch everything. We touch only things where you really can improve.” And some we just let go, because why would you fix something that’s not broken? The next one is that we train our people, because transformation is not just shifting boxes; it’s a different set of values. Collaboration is a much, much more important element in it. So we are putting a lot of emphasis on helping them also. And change is not only a structure, but it’s also the processes behind the way you lead. And the last thing is, obviously, you also want to inject capabilities from the outside, on a higher level, where you have people who know what good looks like when it comes to a super professional sales organization, when it comes to AI technologies and more developing models, and this helps a lot.\nAnd then we do that all over the company, on the lower level, and the higher level. But if you talk to a really high-level person, if you come with people who really have the gravitas, who bring the experience where nobody would doubt that if they say, “This is how modern software looks like,” they have authority themselves without giving them the stars and stripes. They just put people together and say, “This is how we go.” And people listen and follow. So this is the package, and you need all of them, all of them, in order to make this transformation.\nAnd I can say it seems to work. I had a huge respect for it. I’m a lifetimer at Siemens, and I saw in my 30 years so many changes and programs. And before pulling the trigger for this big change, which is the deepest one for the last at least 20 years, you think about it twice, because if this vessel runs in the wrong direction, you have a problem. And we have to deliver at the same time. But I pulled the trigger because I knew that we had to change. The environment of technology is changing so fast, so we have to be at the forefront, but I’m quite happy because it has been running for one year and is making good progress. There’s another one ahead of us. By the end of the fiscal year…  So by the end of this, by October, November, we are basically through with all the big moves and the changes, and we are already grooving in the first batch of changes we made. Sales seem to work quite well. We are grooving in. And then within two years, I would say we are ready to scale.\nLet me ask you the other Decoder question I ask everybody. This is a big decision. How do you make decisions? What’s your framework for making decisions?\nThe first thing about decisions is empowerment. Don’t pull every decision up to the boardroom. It makes us slow. It is really not attracting people. People want to really make decisions on a lower level. So basic ideas, deciding on the lowest possible level. However, empowerment is not anarchy. If you have a clear strategy with those set boundaries, this is where I want to go. Within that frame, within your responsibility, you can act and are empowered. Empowered is a two-way street as well. Empowerment gives freedom, but it also requires accountability. So if you empower somebody, they have to be accountable for what the people are doing, which is super important. This is the first thing. So don’t decide on things that you can decide on a lower level.\nBut then, if it comes to, let’s say, the bigger rocks, the M&A decisions, this really goes into a very … I mean, we have processes, how we do it. We had a “P” proposal, which is a proposal where somebody says, “This is a company I want to acquire. This is my business case.” Outside in, in order to say, “Okay, now we believe in that.” You give your trigger, you already know how to negotiate, go forward, and make a non-binding offer. And then they work on it. We have a lot of processes, and when it comes up, we call it an “I” proposal where we finally pull the trigger to say, “Now you can invest, and you can go.”\nAnd the decisions are, when it comes to strategies, engaging as many people as we can, the experts, listening to them in the boardroom. In some cases, we also ask them not to prepare a super-polished PowerPoint. That’s not the point. We want to really get the content. And then we have a very open discussion culture in our management board with our leaders to make better decisions. Very often, I’m also snorkeling around. We are getting advice from others, pulling our network if it comes to certain decisions. But I would say it’s a structured process, but it’s a process which encourages people to speak up, to bring their opinion in order to come to better decisions.\nLet me ask one more question here, then I want to talk about the state of the world, and I really do want to talk about how you see AI and digital twins fitting into automation, because there’s a lot there.\nLet’s say I’m a Siemens engineer working on low voltage switch gear. I’m one of 35,000 people in India, and I’m like, the CEO’s at CES talking about fabrics with [Nvidia CEO] Jensen Huang on stage, and we’re in the middle of a two-year transformation … But I just need to get my work done, and this is all just some corporate strategy distraction. How do you bring those two things together? Because this is the thing that kills projects at big companies. It kills them dead. And the number of times I’ve heard that story is very high. So how do you bring that together?\nI know. There’s the first one, and this is so super important for communication because, and you got it right, low voltage. This is as mechanical as it can get. This is mechanical stuff, so it’s no software, no KEI, if not in the development, of course. But normally, this is a product that is hardware. Not only because we have now solid state switching, which is disruptive, which brings software into it, but take that aside. And then talking about being on stage, talking about KEI, new models, and digital twins, the people sometimes feel lost. Push is always talking about that stuff, but I’m just doing mechanicals. So we have to give love to these guys as well because they do a lot in terms of contributing to top and bottom line cash flow to our company. They are part of the equation.\nIf you go to any kind of customer, they say, “I love your automation. I love your software, but still I have to do some switching here,” and we are rolling in. And it’s super relevant because if you don’t have a switch or if it breaks, then you have a problem. So they bring the capabilities to a customer and say — we also have some low voltage here — but really say, “This is important for you to have a very solid operation.” It makes sense, and they are proud to contribute. So you have to distribute your love not only to the new stuff, but also to those that are basically super important and carry our P&L forward. And then the other element is, believe it or not, this CES presentation or keynote where you really are on par with … I mean, Jensen’s there, Satya [Nadella, Microsoft CEO] is there, and you show what we do and people … Even the low voltage guys are proud of what we do.\nI’ll give a last one because I have to share it with you. We didn’t talk about a completely different area, which is mobility, Siemens Mobility. They do trains. This is hard stuff, boogies, frames, mechanical. These trains are super loaded with automation. These are basically software-defined trains because they tell you whatever … Even before they come to the depot, they tell the depot what they need, which part, what’s wrong, and how to replace it. So it’s technology at its best. However, which company can say that we are transforming the whole economy of 110 million people in a country, which is Egypt? It’s where we built 2,000 kilometers of railway lines from the north to the south, west to the east, connecting 90 million people and transforming the whole system with high-speed commuters and locomotives. This makes people proud, and I didn’t mention any AI technology, even though it’s in our trains, but this is something where we could say, “Who? Which and who? Which company in the world can do that?”\nI’m very curious about all of that. I think there’s some amount of, you said, software-defined low voltage switches or software on the trains. Those worlds are colliding. I want to ask broadly just about the landscape you’re operating in to do all of that work. These are big opportunities at work. If you want to sell trains, you need to be a global company. You can’t be a single country train supplier. You have to operate everywhere.\nI look at Siemens and its size and its history, and I say, “Okay, this company took advantage of globalization and free trade.” You’re in all these countries around the world, you’ve got tens of thousands of people all over the place, you’re building products all over the place, you’re taking advantage of the opportunities and the markets you’re in, the talent that’s in those markets.\nAnd then I look up, and I read the newspaper, and the walls are going up around the world, everywhere, every single day. The Trump administration seems intent on putting ever-higher walls between the US and Europe, in particular, which seems very confusing to me. Other countries are nationalists in other ways. How are you thinking about Siemens in that moment, where a company that was able to grow and be such a large provider to so many people because of free trade and globalization, now has to contend with ever-higher walls and barriers between countries?\nObviously, we believe in free trade more than trade barriers because it brought the world to where we are, and leveraging all technology as fast as possible means bringing it to different countries as fast as possible. The good news about it is, and I mentioned our footprint before, since we are global from the very beginning… By the way, when Werner von Siemens founded this company 175 years or more ago, he sent one brother to London and one to Russia because he knew Germany was too small for his technology to scale. Ever since, Siemens has been a global company. And now our local for local content in the United States or China is 85 percent, 87 percent. So that means we are so local, and we have goods traveling from different places. So the impact on tariffs currently, and we said it last year, it’s a public figure, in 2025 last fiscal year was a low, mid-single-digit bottom-line impact.\nOkay, that’s good for us. It’s maybe not good for others. Our customers are suffering, and with our customers, we are suffering, obviously. We know that machine builders have a reduced volume because their machines are tariffed when they go to the United States. Along with that, normally comes a Siemens Automation, so we see that, but the direct impact is rather low. It’s a second impact. And we are increasing our resilience as we speak. As it comes to certain semiconductors, we are trying to double source as much as possible, which we didn’t do before, in order to scale. We are looking for more localization to invest in the United States. We doubled our capacity for low voltage, medium voltage switching. We invested in assembly lines for trains. Investing in the United States. We are investing in India and China because that is one of our largest markets. Therefore, the good news is that we are quite resilient. Bad news is that for many, many of our customers, it doesn’t help, and it somehow slows down.\nWhen you talk about investing in manufacturing in the United States, I’ve watched a lot of companies say a lot of things about investing in manufacturing in the United States. I’m from Racine, Wisconsin. I watched Foxconn insist that it was going to build an LCD factory in Racine, Wisconsin, and then simply not do that. And I watched Tim Cook reopen a factory that was already making Macs, so Donald Trump, in his first term, could say that Apple was opening a factory. There is a lot of theater about manufacturing in the United States, and then there’s the reality of investing for the long term when presidents come and go. How are you balancing that? Is it theater? Is it real investment? What is the split?\nSo the truth is, it’s a little bit of both. Where it’s real, let’s talk about the pharmaceutical industry. This is real investment. The Swiss ones, the German ones, are investing in pharmaceutical production in the United States. Some car makers that are not that strong, do that. But the big wave of remanufacturing in the United States is not happening yet. We don’t see that. And the reason is, maybe you mentioned it, number one, is the availability of people, also trained people. It is that you don’t know yet where the whole tariff situation will settle at the end of the day. The other reason is, why are we in a world that looks this way? It’s because American companies, in particular, were basically leveraging low labor costs and low costs in other countries, and they made a good living out of it. And you mentioned some of them as well. So do I believe that this will change? Yes. I believe there will be a wave, and we do see more manufacturing coming.\nAnd I didn’t mention semiconductors. Definitely, this is a hard fact. Semiconductor builds. Maybe even battery factories would come, pharmaceuticals, and the like. The only point I always advise our customers is that if you build a new manufacturing line in the United States, make it as automated and as digital as possible for obvious reasons, because you cannot get enough labor, let alone trained labor. And technology is there. So if you go there with a greenfield planned, you have all the freedoms to make this whole thing digital before even sending the first excavation machine. Your products, digitalizing your manufacturing, simulate everything. That’s what we do, by the way. Whenever we build a new one, we go all in. And then you build it. It’s faster. You don’t make mistakes in building. It increases your space productivity and reduces your energy consumption. It increases your output while having more variables and more variants of your products. So that will come, but we thought it would come faster; it seems there’s a delay in really ramping up manufacturing in the United States. And again, maybe sector by sector, you’ll see different patterns.\nDo you think that’s because people assume that there will be a snap back to normal trade relations in the world, or do you think it’s just slow?\nThe latter one. I don’t believe these tariffs will just snap back. Why? Tariffs, more or less, are like taxes, and they help close the budget deficit. And I never saw taxes going back. I hope that this may come to more normal terms. For example, our machines, which are exported to the United States, suffer from tariffs, but they also face these tariffs on aluminum and steel on top of that, which makes them quite expensive. So maybe that goes away. There might be some adoptions, which I think will come, but I don’t believe that this goes back to where we came from.\nLook, I have a rudimentary understanding of economics.\nYou are doing well.\nI studied this as an undergraduate at the University of Chicago 20 years ago. My understanding of all this is that this is how you equalize labor rates. You say, “Okay, you can make the products cheaper overseas. We’ll just put a tariff on top of it. Now the product is as expensive as making it in the United States, so you might as well make it here.” And that is bluntly what the Trump administration is haphazardly trying to convey. But what you’re saying is, “We’re Siemens. We make automation. We can virtually model the entire factory as a digital twin before you build it. In AI, we can automate even more. We can automate people using Excel to program your factory. Just build that.” And I look at that, and I say, “Well, that didn’t get anybody a job.” I look at data center investment in the United States, and communities around the United States are pushing back on data centers because they’re like, “This is a lot to extract from the environment and from our land, and not enough jobs.” And I see that same argument being applied to fully automated factories.\nYes.\nHow do you push back against that? Is a fully automated factory a net addition to the economy, do you think?\nIt’s a net-add with fewer people per output, if you don’t automate. Absolutely. That’s absolutely clear. The point is, we are living in aging societies. Germany, Japan, Korea, and China are aging. There’s a really steep curve. So sooner or later, you will see that creating jobs like crazy is maybe not the point because you’re missing jobs anyhow, or labor anyhow. You might want to deploy the labor you have in jobs that you cannot replace. The social system, the healthcare system, and the like, use labor really where it makes a difference. And in manufacturing, you have less and less. This is changing. You still have people on our shop floor, but you will have fewer. And you said it right, an AI factory fully automated, this uses a lot of space, uses a lot of energy, and it creates a limited number of jobs. That’s what an AI factory is. Yeah.\nWho buys the outputs of an AI factory?\nThe tokens. Intelligence.\nI’m just saying, if I build a fully automated factory to make cars, but no one has a job, who buys the cars?\nAgain, as I said before, what you do when you have full auto manufacturing, you’re driving the economy, you grow faster. You can bring the production to the United States, which has value in it. And once the economy is growing, obviously, your GDP per capita is increasing, and people are going to buy cars, but they have a different deployment.\nBut where do they get the money? Again, a rudimentary understanding of economics.\nSo number one is you’re replacing blue collar workers with more trained workers, with engineers, maybe also blue collar workers using AI technology. So a factory doesn’t run without… Again, we have higher output with fewer people, but you still have … I mean, I talked about it, the whole service sector is super relevant, and they’re missing people as well. Germany, for example, I can share about that. If we do not have hundreds of thousands of immigrants, and most of them working in service jobs, including hospitals and the like… If I take them out of the equation, our whole healthcare system would collapse. So there are a lot of jobs that you cannot replace. And that’s one more thing. When people ask me what to study, I say, “Okay, a solid education in mathematics or physics is always good, but if you don’t really feel like it, you can go for a plumbing job or a handicraft job, because that is the last job to be replaced.”\nYeah. The world needs electricians and plumbers for sure. That much I understand. Someone’s got to build and plumb the data centers, and maybe that’s the only career in the future. So your vision is like a fully automated factory. You’re talking about the higher-order jobs, like information jobs, technology jobs, and engineering jobs. I would call those software jobs. In some broad categorization, there’s some amount of white-collar work that has a laptop involved. That’s the next thing you could automate with AI. And you’ve made some gestures at that, right? We can automate even more of the things.\nYeah.\nAs I mentioned earlier, it seems like a lot of the frame for how you’re thinking is, Siemens has traditionally automated atoms, now you can automate bits.\nYes.\nAnd I see so much excitement about AI automating bits. How are you thinking about that, moving up from, okay, you’ve decided how many units to produce, we’ll produce them, to we’re going to actually automate the deciding of how many units to produce?\nAnd this goes really deep because… And this is when we talk about this industrial operating system, an AI-based operating system, where you really talk about this manufacturing line, which is finally … Running autonomously is a big word, but we are getting closer and closer to doing that. And here comes the point. Number one, it obviously starts with — and I’ll come to manufacturing in a second — but it starts with the design of your product. You create a digital twin of your product, and you simulate how it runs on a manufacturing line. And this loop of producing and simulating and producing your products, which you already have in the digital world, is so powerful. Because whenever you make a change, a component, maybe you want to be more resilient when designing another component, you go all the way back to your design drawings, you change it, and you know which part of manufacturing is impacted. So that’s very powerful.\nBut let me speak on the manufacturing line itself. The whole idea is that you start building this operating system, which is a layered system. Obviously, you need to get all the data that your manufacturing line produces. You have to connect to all your machines, the status of your machines, enrich them with environmental data, as you want to get the real-time data, even the drawing data of your machines as well, because once you have that, and you simulate it … And this is what we call the digital twin composer. That means you’re sucking in different digital twins of a machine, of a line, of a product; you suck it in, and then you have a complete, comprehensive digital twin which ingests real-time data. Then you can go forward and backward in time, and you can find out what the problem is.\nAnd then here comes the real one, when you close the loop of ingesting data but sending data back to the line, which is then the agent, which behaves on behalf of you. An agent is like a trained supervisor for a line. So when a red light is blinking, a supervisor goes there, looks at it, and says, “Oh yeah, this is a problem. I know that, over and over again, this is what I have to do.” And this is what AI agents can do. Finally, you still need somebody who is removing a blockage, changing, or updating. Maybe updating the software will be automatic, but changing a part, changing a piece, or having a switch where something is going wrong, you need people who know what to do. We tell them what to do with glasses. I also presented it at CES.\nSo this helps you interact in your natural words and helps you fix things, even if you don’t know all the details. This is where agents come in, or orchestration agents, which are supported by a machine building agent, a machine agent, a product agent, a workflow agent, whatever. And that’s how the future looks, which is very powerful. It keeps your yield high, your quality process very high, and you’re super agile if there’s any change or change in your production because you have a different version you want to produce. It’s super smart, and it doesn’t take a week to reassemble your line, but it really goes automatically.\nWhen you talk about industrial agents… So there are some lines, something’s gone wrong, a warning light goes off, and you say an agent will help you figure out what’s wrong and potentially fix it by itself. Is that based on an LLM? Are you using one of the models from one of the big companies, and it’s just an LLM that you’ve trained to think about a line in that way?\nYep, but not only that. It’s based on an LLM, different ones, depending on which one we are working on and different use cases, but it’s based on an LLM, but it’s not good enough. If you only use an LLM or an LLM-based agent to fix a problem, the hit rate is near what we need, but we are training these LLMs on our data, on proprietary data, product data, machine data, and operation data. Once you have that, and even the data of fixes in the past … Remember, when you’d walk a [manufacturing] plant, and you’d see the whiteboard where a supervisor writes, “I have a problem here, this is who is working on it, and here I fixed it.” All that knowledge goes into this model so that you just say, “Okay, this is the pattern of a problem. This is what the fix was.” The model knows it because we upload the data.\nSo it’s a model that is trained. This is why we talk about an industrial AI model, which is trained on industrial data. Fundamental, if it really runs across, but also very specific, if it comes to certain machines, then the hit rate goes up from 60 percent, 70 percent, to the 95-ish/8-ish plus, which is really what you can do then.\nAre these your models that you’re training, or are you augmenting models you’re taking?\nWe are augmenting. We don’t do LLMs, so really large models that are trained on the whole of knowledge in the world. This we don’t do [in house]. This is what we’re using any kind of, for specific tasks. We have some models which are very good in software, copilots, and agents for software. And now we are working on really genuine and new product designs, not only just having the next code line, but really genuine designs, a completely different world. And in some cases, we’re working on copilots on the shop floor. We talk about Microsoft, for example, and we are having the first use cases doing that. So, challenges, of course, are that an industrial AI application doesn’t accept hallucination. You really have to be sure that once you send an agent out, it does what you want it to do.\nThis is my fundamental question, and I’ve asked a lot of people this. I’m very curious about your perspective, because the domain is so different. I am not convinced that LLM technology, as it exists today, can make the leap to do all of the things that people want it to do. You see the gaps. Even as you’re saying, an LLM on its own hallucinates enough to only be effective 60 percent to 70 percent of the time. That’s nowhere near good enough for all of the things people want it to do — especially at the labor replacement rates that some of these folks talk about. Do you think it’s good enough, or do you think it’s the actual augmentation that makes it, the products that you build with it, good?\nThey need the augmentation, absolutely.\nAnd actually, I’m also going to ask the second part of that question. Do you see LLM technology, the core technology, improving at a rate that might change your assessment of it?\nGood point. To the question, LLMs will get better and better, but I don’t believe that these LLMs, if you do not train them really on specific industrial data, and this is where the augmentation comes from… You can train them as well, and as long as we want, but they will not get to the level that we can use on the shop floor. It will not work. I strongly believe that the LLMs need specific, domain-specific, machine-specific data in order to really make a difference. But then, if you do that, then you really can make a step up, which is fundamentally higher. I can give you two examples, which are maybe interesting. One is an optical inspection task where we used an LLM and said, “Okay, show me the problem.” Hit rate was okay-ish, but not to the level we needed. Then we start training the model with not so much data, which is anyhow important because if you’re manufacturing at a PPM level, guess how many mistakes you get a day? But on those that you have made, you then create some synthetic data around those.\nOnce you train the model, your hit rate goes up substantially. It’s much, much higher than if you use the next best and next best models. Is there convergence? To some extent, I do believe there’s a certain ceiling where you can train as well as you want, but if you do not get specific training, then you have a problem. Now, my second example is, and now I will give you a little bit of the spirit of how deep you have to go… We have an Italian manufacturer, they make robots, a crib in the box, a crib in the box for any kind of parts. And obviously, you can train a robot to make this crib in a box. What we did was create this wholly in the digital world. We used a digital part with a digital arm, digital software, a digital camera, and maybe everything, and we trained a robot over and over again on this crib in the box with our technology. And then we switched it on, and the hit rate was still not satisfying, 70-odd level.\nIt’s amazing now because we trained for hundreds of hours virtually. Then we used Nvidia technology with a photorealistic ray tracing of these pieces, photorealistic ray tracing at different lights, and trained the model over again. The hit rate was jumping up substantially. So these little details of having a normal representation of a digital part and a really photorealistic one made the hit rate come up substantially. And this is also the reason why when you train robots now in the virtual world, it doesn’t really work. There’s a reason we have so many people who are standing there with some handles and training robots to do a job and train over and over and over again, because this is real training on the real stuff. And these little details make a difference between an industrial application and one that you cannot use. What I’m saying is that training models on specific data, on valuable design data, operation data, and time series data, brings them to the level that we need in order to deploy them.\nAll that data has to come from lots of different customers, and you talk about Siemens as having all that data. But that data actually belongs to your customers. Are they willing to let you aggregate so that you can develop the products at the scale that you’re talking about?\nSo don’t underestimate the amount of data we have. I talk about generations of design data for controls, for trains, for switches, and whatnot, number one. Number two is that we have, I don’t know, how many thousands of machines we are operating. We have machines, we have machine jobs, machining jobs. But if we then go to my AI guys, they say, “Okay, you make everything available now from Siemens?” Then they say, “Ah, still not enough.” They need so much data to train models. Now we have an alliance for machine builders, German machine builders, nine of them. I mean top, top, top. These are the names, Trumpf, DMG Mori, and the like; they are ready now to share their data with us to train models, to bring them a model that they can use to make an application that makes their machines run autonomously.\nSo you just say, “This is the part, here’s the machine, and just get going.” They know that their data is not very useful because it’s too little, but if you add up, if you create these data alliances, it works. It requires a certain trust. This is again where Siemens comes in because they trust us. We have been partners for decades now. We are very mindful of that one. So you’re right, you need as much data as possible. You need as much proprietary data as possible. Would they share the data of their absolute latest machine with us? No, but don’t need that. It can use all the other ones, which is absolutely helpful.\nLet me wrap up with just a big picture question here. I’m just thinking about Siemens as a company and what it represents, and all the places it is around the world, and the value of this scale. You have 320,000 people in all the places around the world. And then I just think about the barriers going up. And Siemens is a defense contractor for both the United States government and Europe, and a bunch of other countries around the world. Are you planning for an event as catastrophic as the dissolution of NATO? It’s great to be like, we can aggregate all the data from all our customers, but also the world might fall apart. Are you thinking about Siemens as a global company in that context?\nYes, we do. If you ask me, do we make a kind of scenario planning of another war or whatever, some incident in Taiwan, we don’t really, because I told my people we cannot do that over and over again. It comes in different forms. So, therefore, why would you? Stay agile and be really fast if something happens. So this is one thing. On the other side, we see obviously the trends in the world, and we are working more and more on what we call the forging of technologies. So, local for local, that you do not always rely on certain technologies from the United States used in China for China and the United States, or for Europe. So it’s a pity because normally you would like to scale, and we still have core technologies which we can multiply, but obviously, getting … For example, we are training our industrial AI applications for China on Chinese LLMs, whereas for the United States, obviously, we train them on American hyperscalers or whatever, LLMs.\nSo we have good experiences also, and this makes us more resilient. Can I do that for everything? Can I fork all my software? I could, but it’s just prohibitively expensive; it doesn’t make sense. But for certain areas, we do that and increase our resilience and hope for the best.\nI realize I’m ending on a down note here, but it just seems like so much of what you’re excited about is the opportunity of scale, the opportunity to do these things cooperatively, in a way that maybe changes the world economy, and all of us are just caring for robots in the end. But these are huge global ideas that you have, and I’m just trying to put them in the context of, boy, when I hear other people talk about AI, it is in the context of national champions and international competition in a way that feels very old. \nIt does not feel like the world of the past 20 years. This feels like a return to a different time. And I’m just wondering how you can keep the optimism of the scale and the globalization when that is happening all around you.\nMaybe I have this optimism because I’m working in one of the most international companies in the world. We are a Chinese company, as we are a United States company and a European one, and we have so many great people all around the world. And I’ll also see how they are collaborating, and I believe that this is a core value of societies, which is super, super relevant for the future. There might be times where this is not appreciated so much for whatever reason, but in the long run, I believe that a world which is using technologies in order to solve the real problems in the world … We have to feed 10 billion people now. We are creating our climate and whatnot. And we have aging societies where healthcare is a huge problem. So we cannot solve it if we box ourselves too small, so scale it. And here I hope that when we have waves of opening and closing and whatnot, that ultimately this pays out if you are acting in a global international network as we do, and therefore I’m more optimistic.\nWhat should we be looking for next from Siemens?\nI think the next thing is that we are walking the talk. We talk about that we are building this industrial AI operating system, that we are using AI now for the next level to really not only validate, but also create, that we are leveraging our capabilities of bringing the real world and the digital world together, because the digital world can do so much if you do not have an impact on the real world. We show that with our customers, like PepsiCo, which was showing at CES, like Kyron, the supply chain or logistics company, or many, many others. And to see that we can be the entry door for AI technology into the real world together with our partners at scale.\nRoland, this has been great. I could do another full hour just on the structure of Siemens. I think, as you can tell.\nI know. I know.\nYou’re going to have to come back. Thank you so much for being on Decoder.\nNilay, thank you.\nQuestions or comments about this episode? Hit us up at decoder@theverge.com. We really do read every email!",
+    "short_summary": "Today, I’m talking with Roland Busch, who is the CEO of Siemens.\nSiemens is one of those absolutely giant, extremely important, but fairly opaque companies we love to dig into on Decoder. At a very...",
+    "translated_title_ja": ""
+  },
+  {
+    "title": "OpenAI will reportedly start testing ads in ChatGPT today",
+    "link": "https://www.theverge.com/news/875724/openai-chatgpt-ads-test-launch",
+    "pubDate": "2026-02-09T14:45:41.000Z",
+    "source": "The Verge",
+    "summary": ""
+  },
+  {
+    "title": "Discord will require a face scan or ID for full access next month",
+    "link": "https://www.theverge.com/tech/875309/discord-age-verification-global-roll-out",
+    "pubDate": "2026-02-09T14:01:00.000Z",
+    "source": "The Verge",
+    "summary": ""
+  },
+  {
+    "title": "PlayStation’s next big games showcase is on February 12th",
+    "link": "https://www.theverge.com/games/875692/playstation-state-of-play-showcase-ps5-february-2026",
+    "pubDate": "2026-02-09T13:50:00.000Z",
+    "source": "The Verge",
+    "summary": ""
+  },
+  {
+    "title": "Animal Crossing started life as a dungeon crawler",
+    "link": "https://www.theverge.com/entertainment/874895/super-nintendo-book-excerpt-animal-crossing-keza-macdonald",
+    "pubDate": "2026-02-09T13:30:00.000Z",
+    "source": "The Verge",
+    "summary": ""
+  },
+  {
+    "title": "HBO Max is finally launching in the UK next month",
+    "link": "https://www.theverge.com/streaming/875668/hbo-max-is-finally-launching-in-the-uk-next-month",
+    "pubDate": "2026-02-09T12:33:51.000Z",
+    "source": "The Verge",
+    "summary": ""
+  },
+  {
+    "title": "Live Nation’s monopoly trial is reportedly fracturing Trump’s Justice Department",
+    "link": "https://www.theverge.com/policy/875665/live-nation-ticketmaster-settlement-doj-discussions-monopoly-trial",
+    "pubDate": "2026-02-09T12:22:41.000Z",
+    "source": "The Verge",
+    "summary": ""
+  },
+  {
+    "title": "This whistle fights fascists",
+    "link": "https://www.theverge.com/policy/874959/3d-printed-whistles-for-ice-minneapolis-chicago-renee-good-alex-pretti",
+    "pubDate": "2026-02-09T11:00:00.000Z",
+    "source": "The Verge",
+    "summary": ""
+  },
+  {
+    "title": "OpenAI’s supposedly ‘leaked’ Super Bowl ad with ear buds and a shiny orb was a hoax",
+    "link": "https://www.theverge.com/ai-artificial-intelligence/875615/openai-super-bowl-ai-hardware-leak-hoax-fake",
+    "pubDate": "2026-02-09T04:54:36.000Z",
+    "source": "The Verge",
+    "summary": ""
+  },
+  {
+    "title": "Super Bowl LX ads: all AI everything",
+    "link": "https://www.theverge.com/entertainment/874504/super-bowl-lx-ads-big-game",
+    "pubDate": "2026-02-08T23:58:02.000Z",
+    "source": "The Verge",
+    "summary": ""
+  },
+  {
+    "title": "YouTube Music starts putting lyrics behind a paywall",
+    "link": "https://www.theverge.com/streaming/875511/youtube-music-lyrics-paywall",
+    "pubDate": "2026-02-08T22:55:43.000Z",
+    "source": "The Verge",
+    "summary": ""
+  },
+  {
+    "title": "New York is considering two bills to rein in the AI industry",
+    "link": "https://www.theverge.com/ai-artificial-intelligence/875501/new-york-is-considering-two-bills-to-rein-in-the-ai-industry",
+    "pubDate": "2026-02-08T21:04:53.000Z",
+    "source": "The Verge",
+    "summary": ""
+  },
+  {
+    "title": "You need to listen to the new Mandy, Indiana record: URGH",
+    "link": "https://www.theverge.com/entertainment/875469/mandy-indiana-urgh-review",
+    "pubDate": "2026-02-08T17:30:00.000Z",
+    "source": "The Verge",
+    "summary": ""
+  },
+  {
+    "title": "The iPhone 17e could launch soon with MagSafe and an A19 chip",
+    "link": "https://www.theverge.com/tech/875454/iphone-17e-launching-soon-magsafe-a19",
+    "pubDate": "2026-02-08T15:26:33.000Z",
+    "source": "The Verge",
+    "summary": ""
+  },
+  {
+    "title": "How I Built the Star Trek control panel of my dreams",
+    "link": "https://www.theverge.com/tech/862070/lcars-homes-assistant-star-trek",
+    "pubDate": "2026-02-08T15:00:00.000Z",
+    "source": "The Verge",
+    "summary": ""
+  },
+  {
+    "title": "GuliKit’s tiny USB dongle lets you connect your PS5 controller to your Switch 2",
+    "link": "https://www.theverge.com/tech/874842/gulikit-hyperlink-gen2-usb-adapter-wireless-switch-2-hands-on",
+    "pubDate": "2026-02-08T15:00:00.000Z",
+    "source": "The Verge",
+    "summary": ""
+  },
+  {
+    "title": "Washington Post C.E.O. Will Lewis Steps Down After Stormy Tenure",
+    "link": "https://www.nytimes.com/2026/02/07/technology/washington-post-will-lewis.html",
+    "pubDate": "Sun, 08 Feb 2026 14:40:43 +0000",
+    "source": "NYT > Technology",
+    "summary": ""
+  },
+  {
+    "title": "Section 230 turns 30 as it faces its biggest tests yet",
+    "link": "https://www.theverge.com/policy/875300/section-230-turns-30-social-media-addiction-cases-sunset",
+    "pubDate": "2026-02-08T14:00:00.000Z",
+    "source": "The Verge",
+    "summary": ""
+  },
+  {
+    "title": "These A.I. Dreamers Don’t Fit the Stereotype",
+    "link": "https://www.nytimes.com/2026/02/08/style/ai-tech-san-francisco.html",
+    "pubDate": "Sun, 08 Feb 2026 10:00:34 +0000",
+    "source": "NYT > Technology",
+    "summary": ""
+  },
+  {
+    "title": "After Merging xAI and SpaceX, Elon Musk Hopes He Can Win Over Wall Street",
+    "link": "https://www.nytimes.com/2026/02/07/technology/elon-musk-spacex-xai.html",
+    "pubDate": "Sun, 08 Feb 2026 01:27:03 +0000",
+    "source": "NYT > Technology",
+    "summary": ""
+  },
+  {
+    "title": "These Mathematicians Are Trying to Educate A.I.",
+    "link": "https://www.nytimes.com/2026/02/07/science/mathematics-ai-proof-hairer.html",
+    "pubDate": "Sat, 07 Feb 2026 17:08:57 +0000",
+    "source": "NYT > Technology",
+    "summary": ""
+  },
+  {
+    "title": "Fear of AI Replacing Software Makers Hits Stocks. Here’s What to Know.",
+    "link": "https://www.nytimes.com/2026/02/06/business/ai-stock-market-anthropic-openai.html",
+    "pubDate": "Fri, 06 Feb 2026 20:11:04 +0000",
+    "source": "NYT > Technology",
+    "summary": ""
+  },
+  {
+    "title": "Google Workers Demand End to Cloud Services for Immigration Agencies",
+    "link": "https://www.nytimes.com/2026/02/06/business/google-employees-protest.html",
+    "pubDate": "Fri, 06 Feb 2026 18:52:26 +0000",
+    "source": "NYT > Technology",
+    "summary": ""
+  },
+  {
+    "title": "AG1 is a lot less science-y than it sounds",
+    "link": "https://www.theverge.com/column/874696/optimizer-ag1-wellness-report-card-greens-powder",
+    "pubDate": "2026-02-06T15:00:00.000Z",
+    "source": "The Verge",
+    "summary": ""
+  },
+  {
+    "title": "How Epstein became a tech influencer",
+    "link": "https://www.theverge.com/podcast/874768/epstein-files-tech-anthropic-ads-vergecast",
+    "pubDate": "2026-02-06T14:24:30.000Z",
+    "source": "The Verge",
+    "summary": ""
+  },
+  {
+    "title": "Stellantis’s Shift Away From Electric Cars Will Cost It $26 Billion",
+    "link": "https://www.nytimes.com/2026/02/06/business/stellantis-writedown-electric-vehicles.html",
+    "pubDate": "Fri, 06 Feb 2026 14:01:47 +0000",
+    "source": "NYT > Technology",
+    "summary": ""
+  },
+  {
+    "title": "Can China’s No. 2 automaker make it in America?",
+    "link": "https://www.theverge.com/transportation/874551/geely-volvo-china-cars-us-software-restrictions",
+    "pubDate": "2026-02-06T13:00:00.000Z",
+    "source": "The Verge",
+    "summary": "Can China’s No. 2 automaker make it in America? の重要ポイントを短く解説します。読むだけでこの記事の核心がつかめます。（出典: The Verge）"
+  },
+  {
+    "title": "How the men in the Epstein files defeated #MeToo",
+    "link": "https://www.theverge.com/tech/874721/epstein-thiel-musk-trump-metoo",
+    "pubDate": "2026-02-06T13:00:00.000Z",
+    "source": "The Verge",
+    "summary": "How the men in the Epstein files defeated #MeToo の重要ポイントを短く解説します。読むだけでこの記事の核心がつかめます。（出典: The Verge）"
+  },
+  {
+    "title": "Uber found liable for sexual assault in first of thousands of similar lawsuits",
+    "link": "https://www.theverge.com/transportation/874751/uber-sexual-assault-federal-case-verdict-liable",
+    "pubDate": "2026-02-06T12:54:00.000Z",
+    "source": "The Verge",
+    "summary": "Uber found liable for sexual assault in first of thousands of similar lawsuits の重要ポイントを短く解説します。読むだけでこの記事の核心がつかめます。（出典: The Verge）"
+  },
+  {
+    "title": "TikTok&#8217;s infinite scroll is too addictive, say EU regulators",
+    "link": "https://www.theverge.com/policy/874746/tiktok-addictive-eu-regulators-infinite-scroll-notifications-autoplay",
+    "pubDate": "2026-02-06T12:41:21.000Z",
+    "source": "The Verge",
+    "summary": "TikTok&#8217;s infinite scroll is too addictive, say EU regulators の重要ポイントを短く解説します。読むだけでこの記事の核心がつかめます。（出典: The Verge）"
+  },
+  {
+    "title": "Europe Accuses TikTok of ‘Addictive Design’ and Pushes for Change",
+    "link": "https://www.nytimes.com/2026/02/06/business/tiktok-addictive-design-europe.html",
+    "pubDate": "Fri, 06 Feb 2026 12:06:58 +0000",
+    "source": "NYT > Technology",
+    "summary": ""
+  },
+  {
+    "title": "Elon Musk’s Mega-Merger + We Test Google’s Project Genie + What’s Next for Moltbook Creator",
+    "link": "https://www.nytimes.com/2026/02/06/podcasts/hardfork-musk-merger-genie.html",
+    "pubDate": "Fri, 06 Feb 2026 12:00:03 +0000",
+    "source": "NYT > Technology",
+    "summary": "Elon Musk’s Mega-Merger + We Test Google’s Project Genie + What’s Next for Moltbook Creator の重要ポイントを短く解説します。読むだけでこの記事の核心がつかめます。（出典: NYT > Technology）"
+  },
+  {
+    "title": "Google is expanding AirDrop support to more Android devices ‘very soon’",
+    "link": "https://www.theverge.com/tech/874736/android-quick-share-apple-airdrop-support-expansion",
+    "pubDate": "2026-02-06T10:57:08.000Z",
+    "source": "The Verge",
+    "summary": "Google is expanding AirDrop support to more Android devices ‘very soon’ の重要ポイントを短く解説します。読むだけでこの記事の核心がつかめます。（出典: The Verge）"
+  },
+  {
+    "title": "The Dark Side of A.I. Weighs on the Stock Market",
+    "link": "https://www.nytimes.com/2026/02/06/business/the-dark-side-of-ai-weighs-on-the-stock-market.html",
+    "pubDate": "Fri, 06 Feb 2026 10:04:16 +0000",
+    "source": "NYT > Technology",
+    "summary": ""
+  },
+  {
+    "title": "An Indian Film Embraces a Taj Majal Conspiracy Theory",
+    "link": "https://www.nytimes.com/2026/02/06/business/the-taj-story-conspiracy-taj-mahal-hindu.html",
+    "pubDate": "Fri, 06 Feb 2026 05:01:11 +0000",
+    "source": "NYT > Technology",
+    "summary": ""
+  },
+  {
+    "title": "Google Plans to Double Spending Amid A.I. Race",
+    "link": "https://www.nytimes.com/2026/02/04/business/google-earnings-ai.html",
+    "pubDate": "Fri, 06 Feb 2026 04:33:17 +0000",
+    "source": "NYT > Technology",
+    "summary": "Google Plans to Double Spending Amid A.I. Race の重要ポイントを短く解説します。読むだけでこの記事の核心がつかめます。（出典: NYT > Technology）"
+  },
+  {
+    "title": "HBO is turning Baldur’s Gate into a TV show",
+    "link": "https://www.theverge.com/entertainment/874682/hbo-baldurs-gate-3-tv-show-craig-mazin",
+    "pubDate": "2026-02-06T00:50:16.000Z",
+    "source": "The Verge",
+    "summary": "HBO is turning Baldur’s Gate into a TV show の重要ポイントを短く解説します。読むだけでこの記事の核心がつかめます。（出典: The Verge）"
+  },
+  {
+    "title": "At Ukraine’s Request, Starlink Denies Internet Access to Russian Troops",
+    "link": "https://www.nytimes.com/2026/02/05/world/europe/starlink-blocks-russian-troops-access.html",
+    "pubDate": "Fri, 06 Feb 2026 00:00:51 +0000",
+    "source": "NYT > Technology",
+    "summary": "At Ukraine’s Request, Starlink Denies Internet Access to Russian Troops の重要ポイントを短く解説します。読むだけでこの記事の核心がつかめます。（出典: NYT > Technology）"
+  },
+  {
+    "title": "Amazon’s $200 Billion Spending Plan Raises Stakes in A.I. Race",
+    "link": "https://www.nytimes.com/2026/02/05/technology/amazon-200-billion-ai.html",
+    "pubDate": "Thu, 05 Feb 2026 23:51:01 +0000",
+    "source": "NYT > Technology",
+    "summary": "Amazon’s $200 Billion Spending Plan Raises Stakes in A.I. Race の重要ポイントを短く解説します。読むだけでこの記事の核心がつかめます。（出典: NYT > Technology）"
+  },
+  {
+    "title": "Bitcoin Drops to Lowest Price Since Trump Was Elected as Crypto Faces Slump",
+    "link": "https://www.nytimes.com/2026/02/05/technology/bitcoin-price-drop-crypto-market.html",
+    "pubDate": "Thu, 05 Feb 2026 23:46:58 +0000",
+    "source": "NYT > Technology",
+    "summary": "Bitcoin Drops to Lowest Price Since Trump Was Elected as Crypto Faces Slump の重要ポイントを短く解説します。読むだけでこの記事の核心がつかめます。（出典: NYT > Technology）"
+  },
+  {
+    "title": "Roblox is working to pull in adult players",
+    "link": "https://www.theverge.com/games/874675/roblox-earnings-q4-2025-increasing-adult-players",
+    "pubDate": "2026-02-05T23:14:51.000Z",
+    "source": "The Verge",
+    "summary": "Roblox is working to pull in adult players の重要ポイントを短く解説します。読むだけでこの記事の核心がつかめます。（出典: The Verge）"
+  },
+  {
+    "title": "Republicans attack &#8216;woke&#8217; Netflix — and ignore YouTube",
+    "link": "https://www.theverge.com/streaming/874655/netflix-warner-bros-republican-culture-war-ted-sarandos-hearing",
+    "pubDate": "2026-02-05T21:40:45.000Z",
+    "source": "The Verge",
+    "summary": "Republicans attack &#8216;woke&#8217; Netflix — and ignore YouTube の重要ポイントを短く解説します。読むだけでこの記事の核心がつかめます。（出典: The Verge）"
+  },
+  {
+    "title": "Iron Lung’s path to theaters was unique, even if the movie isn’t",
+    "link": "https://www.theverge.com/entertainment/874500/iron-lung-theater-box-office-markiplier",
+    "pubDate": "2026-02-05T21:00:00.000Z",
+    "source": "The Verge",
+    "summary": "Iron Lung’s path to theaters was unique, even if the movie isn’t の重要ポイントを短く解説します。読むだけでこの記事の核心がつかめます。（出典: The Verge）"
+  },
+  {
+    "title": "The price of Bitcoin drops below $65,000",
+    "link": "https://www.theverge.com/tech/874603/bitcoin-price-drop-cryptocurrency",
+    "pubDate": "2026-02-05T20:38:01.000Z",
+    "source": "The Verge",
+    "summary": "The price of Bitcoin drops below $65,000 の重要ポイントを短く解説します。読むだけでこの記事の核心がつかめます。（出典: The Verge）"
+  },
+  {
+    "title": "Files Reveal Epstein’s Money Mingled with Silicon Valley’s Tech Start-Ups",
+    "link": "https://www.nytimes.com/2026/02/05/business/epstein-investments-palantir-coinbase-thiel.html",
+    "pubDate": "Thu, 05 Feb 2026 17:07:34 +0000",
+    "source": "NYT > Technology",
+    "summary": "Files Reveal Epstein’s Money Mingled with Silicon Valley’s Tech Start-Ups の重要ポイントを短く解説します。読むだけでこの記事の核心がつかめます。（出典: NYT > Technology）"
+  },
+  {
+    "title": "France’s Raid on X Escalates Trans-Atlantic Showdown Over Social Media",
+    "link": "https://www.nytimes.com/2026/02/04/world/europe/social-media-free-speech.html",
+    "pubDate": "Wed, 04 Feb 2026 23:08:40 +0000",
+    "source": "NYT > Technology",
+    "summary": "France’s Raid on X Escalates Trans-Atlantic Showdown Over Social Media の重要ポイントを短く解説します。読むだけでこの記事の核心がつかめます。（出典: NYT > Technology）"
+  },
+  {
+    "title": "Moltbook Mania Explained",
+    "link": "https://www.nytimes.com/2026/02/04/podcasts/moltbook-mania-explained.html",
+    "pubDate": "Wed, 04 Feb 2026 12:00:06 +0000",
+    "source": "NYT > Technology",
+    "summary": "Moltbook Mania Explained の重要ポイントを短く解説します。読むだけでこの記事の核心がつかめます。（出典: NYT > Technology）"
+  },
+  {
+    "title": "Netflix Leader Pushes Warner Deal Before Skeptical Lawmakers",
+    "link": "https://www.nytimes.com/2026/02/03/business/media/netflix-sarandos-warner-senate-hearing.html",
+    "pubDate": "Tue, 03 Feb 2026 23:47:39 +0000",
+    "source": "NYT > Technology",
+    "summary": "Netflix Leader Pushes Warner Deal Before Skeptical Lawmakers の重要ポイントを短く解説します。読むだけでこの記事の核心がつかめます。（出典: NYT > Technology）"
+  },
+  {
+    "title": "Spain Aims to Ban Social Media for Children Under 16",
+    "link": "https://www.nytimes.com/2026/02/03/world/europe/spain-social-media-ban-under-16.html",
+    "pubDate": "Tue, 03 Feb 2026 21:15:35 +0000",
+    "source": "NYT > Technology",
+    "summary": "Spain Aims to Ban Social Media for Children Under 16 の重要ポイントを短く解説します。読むだけでこの記事の核心がつかめます。（出典: NYT > Technology）"
+  },
+  {
+    "title": "‘Don Colossus,’ a Golden Statue of President Trump, Waits for Its Home",
+    "link": "https://www.nytimes.com/2026/02/03/technology/trump-statue-don-colossus.html",
+    "pubDate": "Tue, 03 Feb 2026 20:53:42 +0000",
+    "source": "NYT > Technology",
+    "summary": "‘Don Colossus,’ a Golden Statue of President Trump, Waits for Its Home の重要ポイントを短く解説します。読むだけでこの記事の核心がつかめます。（出典: NYT > Technology）"
+  },
+  {
+    "title": "Chaos in Minneapolis Exposes an Internet at War With Truth",
+    "link": "https://www.nytimes.com/2026/02/03/technology/minneapolis-ai-disinformation-misinformation-truth.html",
+    "pubDate": "Tue, 03 Feb 2026 14:19:53 +0000",
+    "source": "NYT > Technology",
+    "summary": "Chaos in Minneapolis Exposes an Internet at War With Truth の重要ポイントを短く解説します。読むだけでこの記事の核心がつかめます。（出典: NYT > Technology）"
+  },
+  {
+    "title": "Siemens Energy Bets $1 Billion That A.I. Power Demand Will Last",
+    "link": "https://www.nytimes.com/2026/02/03/business/energy-environment/siemens-energy-ai-power-demand.html",
+    "pubDate": "Tue, 03 Feb 2026 11:00:16 +0000",
+    "source": "NYT > Technology",
+    "summary": "Siemens Energy Bets $1 Billion That A.I. Power Demand Will Last の重要ポイントを短く解説します。読むだけでこの記事の核心がつかめます。（出典: NYT > Technology）"
+  },
+  {
+    "title": "Elon Musk Merges SpaceX With His A.I. Start-Up xAI",
+    "link": "https://www.nytimes.com/2026/02/02/technology/spacex-xai-deal.html",
+    "pubDate": "Tue, 03 Feb 2026 02:22:02 +0000",
+    "source": "NYT > Technology",
+    "summary": "Elon Musk Merges SpaceX With His A.I. Start-Up xAI の重要ポイントを短く解説します。読むだけでこの記事の核心がつかめます。（出典: NYT > Technology）"
+  },
+  {
+    "title": "Trump Unveils $12 Billion Critical Minerals Stockpile",
+    "link": "https://www.nytimes.com/2026/02/02/business/trump-critical-minerals-stockpile.html",
+    "pubDate": "Tue, 03 Feb 2026 00:57:15 +0000",
+    "source": "NYT > Technology",
+    "summary": "Trump Unveils $12 Billion Critical Minerals Stockpile の重要ポイントを短く解説します。読むだけでこの記事の核心がつかめます。（出典: NYT > Technology）"
+  },
+  {
+    "title": "Energy Bills Have Soared Recently. How Can States Bring Costs Down?",
+    "link": "https://www.nytimes.com/2026/01/31/business/energy-environment/energy-bills-costs-states-trump-power-plants.html",
+    "pubDate": "Mon, 02 Feb 2026 20:15:42 +0000",
+    "source": "NYT > Technology",
+    "summary": "Energy Bills Have Soared Recently. How Can States Bring Costs Down? の重要ポイントを短く解説します。読むだけでこの記事の核心がつかめます。（出典: NYT > Technology）"
+  },
+  {
+    "title": "A Social Network for A.I. Bots Only. No Humans Allowed.",
+    "link": "https://www.nytimes.com/2026/02/02/technology/moltbook-ai-social-media.html",
+    "pubDate": "Mon, 02 Feb 2026 19:47:55 +0000",
+    "source": "NYT > Technology",
+    "summary": "A Social Network for A.I. Bots Only. No Humans Allowed. の重要ポイントを短く解説します。読むだけでこの記事の核心がつかめます。（出典: NYT > Technology）"
+  },
+  {
+    "title": "Jeff Bezos’s Rocket Company Blue Origin Pauses Space Tourism to Focus on the Moon",
+    "link": "https://www.nytimes.com/2026/01/30/science/blue-origin-new-shepard-rocket-bezos.html",
+    "pubDate": "Mon, 02 Feb 2026 16:11:05 +0000",
+    "source": "NYT > Technology",
+    "summary": "Jeff Bezos’s Rocket Company Blue Origin Pauses Space Tourism to Focus on the Moon の重要ポイントを短く解説します。読むだけでこの記事の核心がつかめます。（出典: NYT > Technology）"
+  },
+  {
+    "title": "Tesla’s Model S, Soon to Be History, Changed the Auto Industry",
+    "link": "https://www.nytimes.com/2026/01/30/business/tesla-model-s-history.html",
+    "pubDate": "Fri, 30 Jan 2026 19:59:39 +0000",
+    "source": "NYT > Technology",
+    "summary": "Tesla’s Model S, Soon to Be History, Changed the Auto Industry の重要ポイントを短く解説します。読むだけでこの記事の核心がつかめます。（出典: NYT > Technology）"
+  },
+  {
+    "title": "Tech Grapples With ICE + Casey Tries Clawdbot, a Risky New A.I. Assistant + HatGPT",
+    "link": "https://www.nytimes.com/2026/01/30/podcasts/hardfork-ice-clawdbot.html",
+    "pubDate": "Fri, 30 Jan 2026 12:00:03 +0000",
+    "source": "NYT > Technology",
+    "summary": "Tech Grapples With ICE + Casey Tries Clawdbot, a Risky New A.I. Assistant + HatGPT の重要ポイントを短く解説します。読むだけでこの記事の核心がつかめます。（出典: NYT > Technology）"
+  },
+  {
+    "title": "How I Get Free Traffic from ChatGPT in 2025 (AIO vs SEO)",
+    "link": "https://techncruncher.blogspot.com/2025/12/how-i-get-free-traffic-from-chatgpt-in.html",
+    "pubDate": "Thu, 04 Dec 2025 05:37:00 +0000",
+    "source": "Crunch Hype",
+    "summary": "How I Get Free Traffic from ChatGPT in 2025 (AIO vs SEO) の重要ポイントを短く解説します。読むだけでこの記事の核心がつかめます。（出典: Crunch Hype）"
+  },
+  {
+    "title": "Top 10 AI Tools That Will Transform Your Content Creation in 2025",
+    "link": "https://techncruncher.blogspot.com/2025/01/top-10-ai-tools-that-will-transform.html",
+    "pubDate": "Thu, 02 Jan 2025 09:26:00 +0000",
+    "source": "Crunch Hype",
+    "summary": "Top 10 AI Tools That Will Transform Your Content Creation in 2025 の重要ポイントを短く解説します。読むだけでこの記事の核心がつかめます。（出典: Crunch Hype）"
+  },
+  {
+    "title": "LimeWire AI Studio Review 2023: Details, Pricing & Features",
+    "link": "https://techncruncher.blogspot.com/2023/12/limewire-ai-studio-review-2023-details.html",
+    "pubDate": "Tue, 12 Dec 2023 16:10:00 +0000",
+    "source": "Crunch Hype",
+    "summary": "LimeWire AI Studio Review 2023: Details, Pricing & Features の重要ポイントを短く解説します。読むだけでこの記事の核心がつかめます。（出典: Crunch Hype）"
+  },
+  {
+    "title": "Top 10 AI Tools in 2023 That Will Make Your Life Easier",
+    "link": "https://techncruncher.blogspot.com/2023/01/top-10-ai-tools-in-2023-that-will-make.html",
+    "pubDate": "Wed, 25 Jan 2023 19:52:00 +0000",
+    "source": "Crunch Hype",
+    "summary": "Top 10 AI Tools in 2023 That Will Make Your Life Easier の重要ポイントを短く解説します。読むだけでこの記事の核心がつかめます。（出典: Crunch Hype）"
+  },
+  {
+    "title": "Top 10 AI Content Generator & Writer Tools in 2022",
+    "link": "https://techncruncher.blogspot.com/2022/11/top-10-ai-content-generator-writer.html",
+    "pubDate": "Tue, 15 Nov 2022 08:58:00 +0000",
+    "source": "Crunch Hype",
+    "summary": "Top 10 AI Content Generator & Writer Tools in 2022 の重要ポイントを短く解説します。読むだけでこの記事の核心がつかめます。（出典: Crunch Hype）"
+  },
+  {
+    "title": "Beginner Guide to CJ Affiliate (Commission Junction) in 2022",
+    "link": "https://techncruncher.blogspot.com/2022/09/cj-affiliate-ultimate-guide-to.html",
+    "pubDate": "Sat, 10 Sep 2022 08:57:00 +0000",
+    "source": "Crunch Hype",
+    "summary": "Beginner Guide to CJ Affiliate (Commission Junction) in 2022 の重要ポイントを短く解説します。読むだけでこの記事の核心がつかめます。（出典: Crunch Hype）"
+  },
+  {
+    "title": "TOP 11 AI MARKETING TOOLS YOU SHOULD USE (Updated 2022)",
+    "link": "https://techncruncher.blogspot.com/2022/07/top-10-ai-marketing-tools-you-should-use.html",
+    "pubDate": "Wed, 13 Jul 2022 15:25:00 +0000",
+    "source": "Crunch Hype",
+    "summary": "TOP 11 AI MARKETING TOOLS YOU SHOULD USE (Updated 2022) の重要ポイントを短く解説します。読むだけでこの記事の核心がつかめます。（出典: Crunch Hype）"
+  },
+  {
+    "title": "Most Frequently Asked Questions About Affiliate Marketing",
+    "link": "https://techncruncher.blogspot.com/2022/06/most-frequently-asked-questions-about.html",
+    "pubDate": "Wed, 01 Jun 2022 13:03:00 +0000",
+    "source": "Crunch Hype",
+    "summary": "Most Frequently Asked Questions About Affiliate Marketing の重要ポイントを短く解説します。読むだけでこの記事の核心がつかめます。（出典: Crunch Hype）"
+  },
+  {
+    "title": "What is Blockchain: Everything You Need to Know (2022)",
+    "link": "https://techncruncher.blogspot.com/2022/04/what-is-blockchain-everything-you-need.html",
+    "pubDate": "Mon, 18 Apr 2022 05:49:00 +0000",
+    "source": "Crunch Hype",
+    "summary": "What is Blockchain: Everything You Need to Know (2022) の重要ポイントを短く解説します。読むだけでこの記事の核心がつかめます。（出典: Crunch Hype）"
+  },
+  {
+    "title": "ProWritingAid VS Grammarly: Which Grammar Checker is Better in (2022) ?",
+    "link": "https://techncruncher.blogspot.com/2022/03/prowritingaid-vs-grammarly-which.html",
+    "pubDate": "Sun, 13 Mar 2022 15:04:00 +0000",
+    "source": "Crunch Hype",
+    "summary": "ProWritingAid VS Grammarly: Which Grammar Checker is Better in (2022) ? の重要ポイントを短く解説します。読むだけでこの記事の核心がつかめます。（出典: Crunch Hype）"
+  },
+  {
+    "title": "Sellfy Review 2022: How Good Is This Ecommerce Platform?",
+    "link": "https://techncruncher.blogspot.com/2022/03/sellfy-review-2022-how-good-is-this.html",
+    "pubDate": "Sat, 12 Mar 2022 11:54:00 +0000",
+    "source": "Crunch Hype",
+    "summary": "Sellfy Review 2022: How Good Is This Ecommerce Platform? の重要ポイントを短く解説します。読むだけでこの記事の核心がつかめます。（出典: Crunch Hype）"
+  },
+  {
+    "title": "Ahrefs vs SEMrush: Which SEO Tool Should You Use?",
+    "link": "https://techncruncher.blogspot.com/2022/03/ahrefs-vs-semrush-which-seo-tool-should.html",
+    "pubDate": "Tue, 01 Mar 2022 12:16:00 +0000",
+    "source": "Crunch Hype",
+    "summary": "Ahrefs vs SEMrush: Which SEO Tool Should You Use? の重要ポイントを短く解説します。読むだけでこの記事の核心がつかめます。（出典: Crunch Hype）"
+  },
+  {
+    "title": "Top 10 Best PLR(Private Label Rights)  Websites | Which One You Should Join in 2022?",
+    "link": "https://techncruncher.blogspot.com/2022/02/top-10-best-plrprivate-label-rights.html",
+    "pubDate": "Sat, 26 Feb 2022 13:36:00 +0000",
+    "source": "Crunch Hype",
+    "summary": "Top 10 Best PLR(Private Label Rights)  Websites | Which One You Should Join in 2022? の重要ポイントを短く解説します。読むだけでこの記事の核心がつかめます。（出典: Crunch Hype）"
+  },
+  {
+    "title": "Canva Review 2022: Details, Pricing & Features",
+    "link": "https://techncruncher.blogspot.com/2022/02/canva-review-2022-details-pricing.html",
+    "pubDate": "Sun, 20 Feb 2022 12:02:00 +0000",
+    "source": "Crunch Hype",
+    "summary": "Canva Review 2022: Details, Pricing & Features の重要ポイントを短く解説します。読むだけでこの記事の核心がつかめます。（出典: Crunch Hype）"
+  },
+  {
+    "title": "Top 7 Best Wordpress Plugin Of All Time",
+    "link": "https://techncruncher.blogspot.com/2022/02/top-7-best-wordpress-plugin-of-all-time.html",
+    "pubDate": "Fri, 11 Feb 2022 09:00:00 +0000",
+    "source": "Crunch Hype",
+    "summary": "Top 7 Best Wordpress Plugin Of All Time の重要ポイントを短く解説します。読むだけでこの記事の核心がつかめます。（出典: Crunch Hype）"
+  },
+  {
+    "title": "Ginger VS Grammarly: Which Grammar Checker is Better in (2022) ?",
+    "link": "https://techncruncher.blogspot.com/2022/02/ginger-vs-grammarly-which-grammar.html",
+    "pubDate": "Thu, 10 Feb 2022 10:28:00 +0000",
+    "source": "Crunch Hype",
+    "summary": "Ginger VS Grammarly: Which Grammar Checker is Better in (2022) ? の重要ポイントを短く解説します。読むだけでこの記事の核心がつかめます。（出典: Crunch Hype）"
+  },
+  {
+    "title": "Most Frequently Asked Questions About NFTs(Non-Fungible Tokens)",
+    "link": "https://techncruncher.blogspot.com/2022/02/most-frequently-asked-questions-about.html",
+    "pubDate": "Sun, 06 Feb 2022 10:04:00 +0000",
+    "source": "Crunch Hype",
+    "summary": "Most Frequently Asked Questions About NFTs(Non-Fungible Tokens) の重要ポイントを短く解説します。読むだけでこの記事の核心がつかめます。（出典: Crunch Hype）"
+  },
+  {
+    "title": "10 Best Chrome Extensions That Are Perfect for Everyone",
+    "link": "https://techncruncher.blogspot.com/2022/01/10-best-chrome-extensions-that-are.html",
+    "pubDate": "Mon, 31 Jan 2022 10:56:00 +0000",
+    "source": "Crunch Hype",
+    "summary": "10 Best Chrome Extensions That Are Perfect for Everyone の重要ポイントを短く解説します。読むだけでこの記事の核心がつかめます。（出典: Crunch Hype）"
+  },
+  {
+    "title": "Most Frequently Asked Questions About  Email Marketing",
+    "link": "https://techncruncher.blogspot.com/2022/01/most-frequently-asked-questions-about.html",
+    "pubDate": "Sat, 29 Jan 2022 12:45:00 +0000",
+    "source": "Crunch Hype",
+    "summary": "Most Frequently Asked Questions About  Email Marketing の重要ポイントを短く解説します。読むだけでこの記事の核心がつかめます。（出典: Crunch Hype）"
+  },
+  {
+    "title": "7 Free Websites Every Content Creator Needs to Know",
+    "link": "https://techncruncher.blogspot.com/2022/01/7-free-websites-every-content-creator.html",
+    "pubDate": "Thu, 27 Jan 2022 15:19:00 +0000",
+    "source": "Crunch Hype",
+    "summary": "7 Free Websites Every Content Creator Needs to Know の重要ポイントを短く解説します。読むだけでこの記事の核心がつかめます。（出典: Crunch Hype）"
+  }
+]

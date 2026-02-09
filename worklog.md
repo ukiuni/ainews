@@ -1,0 +1,1 @@
+2026-02-10 00:32 JST: Added copilot-based summary generation with LibreTranslate fallback; rebuilt 80 items. Tried to auto-commit & push via publish_and_commit.sh — local branch ahead by 1 commit, pushed earlier changes. Confirmed site: https://ainews.ukiuni.com returned HTTP/2 200.
