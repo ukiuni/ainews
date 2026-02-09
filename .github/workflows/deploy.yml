@@ -25,7 +25,7 @@ jobs:
       - name: Build and Generate Site
         run: npm run build
       - name: Upload Artifacts for Deployment
-        uses: actions/upload-pages-artifact@v1
+        uses: actions/upload-pages-artifact@v2
         with:
           path: ./dist
 
