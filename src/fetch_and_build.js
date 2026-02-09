@@ -14,9 +14,6 @@ if(!fs.existsSync(distDir)) fs.mkdirSync(distDir,{recursive:true});
 const feeds = [
   'https://rss.nytimes.com/services/xml/rss/nyt/Technology.xml',
   'https://feeds.feedburner.com/TechCrunch/',
-  'https://japan.zdnet.com/rssfeed/',
-  'https://www.itmedia.co.jp/rss/news.rdf',
-  'https://asia.nikkei.com/rss/feed/nar/NAR.rdf',
   'https://www.theverge.com/rss/index.xml'
 ];
 
