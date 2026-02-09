@@ -24,10 +24,11 @@ jobs:
           npm ci
       - name: Build and Generate Site
         run: npm run build
-      - name: Upload Artifacts for Deployment
-        uses: actions/upload-pages-artifact@v2
+      - name: Deploy directly to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v4
         with:
-          path: ./dist
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./dist
 
   deploy:
     needs: build
