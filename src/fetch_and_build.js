@@ -163,7 +163,12 @@ const feeds = [
   const totalPages = Math.ceil(final.length / perPage) || 1;
   for(let p=1;p<=totalPages;p++){
     const start=(p-1)*perPage; const pageItems = final.slice(start,start+perPage);
-    const rows = pageItems.map(it=>`<article><h2><a href="${it.link}" target="_blank" rel="noopener">${it.title}</a></h2>${it.translated_title_ja?`<p class="jp">${it.translated_title_ja}</p>`:''}<p class="meta">${it.source} — ${new Date(it.pubDate).toLocaleString()}</p><p class="summary">${it.short_summary||it.summary}</p></article>`).join('\n');
+    const rows = pageItems.map(it=>{
+      const ja = it.translated_title_ja? `<p class="jp">${it.translated_title_ja}</p>` : '';
+      // ensure summary is Japanese if available (copilot produces Japanese); otherwise keep short_summary
+      const summaryHtml = it.summary ? `<p class="summary">${it.summary}</p>` : (it.short_summary? `<p class="summary">${it.short_summary}</p>` : '');
+      return `<article><h2><a href="${it.link}" target="_blank" rel="noopener">${it.title}</a></h2>${ja}<p class="meta">${it.source} — ${new Date(it.pubDate).toLocaleString()}</p>${summaryHtml}</article>`
+    }).join('\n');
     const nav = `<div class="pager">${p>1?`<a href="/page/${p-1}.html">Prev</a>`:''} ${p<totalPages?`<a href="/page/${p+1}.html">Next</a>`:''}</div>`;
     const html = `<!doctype html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>AI News — page ${p}</title><link rel="stylesheet" href="/styles.css"></head><body><main><h1>AI News</h1>${rows}${nav}</main></body></html>`;
     const outdir = p===1? path.join(distDir): path.join(distDir,'page');
