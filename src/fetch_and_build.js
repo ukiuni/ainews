@@ -12,9 +12,16 @@ if(!fs.existsSync(dataDir)) fs.mkdirSync(dataDir,{recursive:true});
 if(!fs.existsSync(distDir)) fs.mkdirSync(distDir,{recursive:true});
 
 const feeds = [
+  // existing sources
   'https://rss.nytimes.com/services/xml/rss/nyt/Technology.xml',
   'https://feeds.feedburner.com/TechCrunch/',
-  'https://www.theverge.com/rss/index.xml'
+  'https://www.theverge.com/rss/index.xml',
+  // additional sources to increase coverage
+  'https://www.wired.com/feed/rss',
+  'https://www.engadget.com/rss.xml',
+  'https://feeds.arstechnica.com/arstechnica/index',
+  'https://www.theguardian.com/technology/rss',
+  'https://www.zdnet.com/news/rss.xml'
 ];
 
 (async()=>{
@@ -26,9 +33,13 @@ const feeds = [
   for(const f of feeds){
     try{
       const feed = await parser.parseURL(f);
-      for(const it of feed.items.slice(0,20)){
+      for(const it of feed.items.slice(0,50)){ // increased fetch limit per feed
         if(!it.link) continue;
-        if(seen.has(it.link)) continue;
+        // check seen by link or title+pubDate
+        const linkKey = it.link;
+        const titleDateKey = (it.title||'') + '|' + (it.pubDate||'');
+        if(seen.has(linkKey) || seen.has(titleDateKey)) continue;
+        seen.add(linkKey); seen.add(titleDateKey);
         // create summary from available fields
         const rawSummary = it.contentSnippet || it.content || it.summary || '';
         newItems.push({
@@ -38,7 +49,8 @@ const feeds = [
           source: feed.title || f,
           summary: rawSummary,
           short_summary: rawSummary ? (rawSummary.length>200? rawSummary.slice(0,197)+'...': rawSummary) : '',
-          translated_title_ja: ''
+          translated_title_ja: '',
+          full_text: '' // placeholder for full article text if we fetch it
         });
       }
     }catch(e){
@@ -84,7 +96,25 @@ const feeds = [
     }catch(e){ console.error('copilot init failed', e.message); useCopilot = false; }
   }
 
+  const { JSDOM } = require('jsdom');
   for(const it of newItems){
+    // fetch full article if needed
+    try{
+      if(!it.summary || it.summary.length < 120){
+        try{
+          const r = await fetch(it.link, { timeout: 10000 });
+          if(r && r.ok){
+            const html = await r.text();
+            const dom = new JSDOM(html);
+            // naive extraction: article tag or main tag or body text
+            const articleEl = dom.window.document.querySelector('article') || dom.window.document.querySelector('main') || dom.window.document.body;
+            const text = articleEl ? articleEl.textContent.replace(/\s+/g,' ').trim() : '';
+            if(text && text.length>50) it.full_text = text;
+          }
+        }catch(e){ /* ignore fetch errors */ }
+      }
+    }catch(e){}
+
     if(it.title){
       try{
         if(useCopilot && copilotSession){
@@ -95,13 +125,13 @@ const feeds = [
       }catch(e){ it.translated_title_ja = ''; }
     }
 
-    // generate summary: prefer copilot (using content if available), otherwise fallback to short_summary
+    // generate summary: prefer copilot (using full_text if available), otherwise fallback to short_summary
     try{
       if(useCopilot && copilotSession){
-        const contentText = it.content || it.contentSnippet || it.summary || '';
+        const contentText = it.full_text || it.content || it.contentSnippet || it.summary || '';
         if(contentText){
           const s = await summarizeWithCopilot(copilotSession, contentText);
-          it.summary = s || it.summary;
+          if(s) it.summary = s;
         }
       }
     }catch(e){ /* ignore, keep existing summary */ }
@@ -115,12 +145,17 @@ const feeds = [
 
   // combine and sort desc
   const items = newItems.concat(oldItems).sort((a,b)=>new Date(b.pubDate)-new Date(a.pubDate));
-  // keep unique by link
+  // keep unique by link + title+pubDate hash
   const uniq = [];
   const seen2 = new Set();
-  for(const it of items){ if(seen2.has(it.link)) continue; seen2.add(it.link); uniq.push(it); }
-  // trim to 100
-  const final = uniq.slice(0,100);
+  for(const it of items){
+    const key = (it.link||'') + '|' + (it.title||'') + '|' + (it.pubDate||'');
+    if(seen2.has(key)) continue;
+    seen2.add(key);
+    uniq.push(it);
+  }
+  // trim to 300 (keep more history)
+  const final = uniq.slice(0,300);
   fs.writeFileSync(itemsFile,JSON.stringify(final,null,2));
 
   // generate paginated HTML pages (20 per page)
