@@ -165,8 +165,16 @@ const feeds = [
     const start=(p-1)*perPage; const pageItems = final.slice(start,start+perPage);
     const rows = pageItems.map(it=>{
       const ja = it.translated_title_ja? `<p class="jp">${it.translated_title_ja}</p>` : '';
-      // ensure summary is Japanese if available (copilot produces Japanese); otherwise keep short_summary
-      const summaryHtml = it.summary ? `<p class="summary">${it.summary}</p>` : (it.short_summary? `<p class="summary">${it.short_summary}</p>` : '');
+      // prefer Japanese summary (it.summary may already be Japanese). fallback to short_summary.
+      let summaryText = it.summary || it.short_summary || '';
+      // normalize whitespace
+      summaryText = summaryText.replace(/\s+/g,' ').trim();
+      // target length: approx 100 ±20 characters -> cap at 120, don't expand short ones
+      const maxLen = 120;
+      if(summaryText.length > maxLen){
+        summaryText = summaryText.slice(0, maxLen-1) + '…';
+      }
+      const summaryHtml = summaryText ? `<p class="summary">${summaryText}</p>` : '';
       return `<article><h2><a href="${it.link}" target="_blank" rel="noopener">${it.title}</a></h2>${ja}<p class="meta">${it.source} — ${new Date(it.pubDate).toLocaleString()}</p>${summaryHtml}</article>`
     }).join('\n');
     const nav = `<div class="pager">${p>1?`<a href="/page/${p-1}.html">Prev</a>`:''} ${p<totalPages?`<a href="/page/${p+1}.html">Next</a>`:''}</div>`;
@@ -177,7 +185,7 @@ const feeds = [
     fs.writeFileSync(out,html);
   }
   // write simple stylesheet
-  fs.writeFileSync(path.join(distDir,'styles.css'),`body{font-family:Inter,system-ui,Arial;margin:24px;background:#fff;color:#111}main{max-width:800px;margin:0 auto}article{padding:12px 0;border-bottom:1px solid #eee}h1{font-size:26px}h2{font-size:18px;margin:6px 0}p.meta{color:#666;font-size:12px}p.summary{margin-top:8px}`);
+  fs.writeFileSync(path.join(distDir,'styles.css'),`body{font-family:Inter,system-ui,Arial;margin:24px;background:#fff;color:#111}main{max-width:800px;margin:0 auto}article{padding:12px 0;border-bottom:1px solid #eee}h1{font-size:26px}h2{font-size:18px;margin:6px 0}p.jp{margin:4px 0 0;color:#333;font-size:14px;font-weight:600}p.meta{color:#666;font-size:12px}p.summary{margin-top:8px;font-size:14px;line-height:1.4}`);
   // generate RSS for latest 20
   const rssItems = final.slice(0,20).map(it=>`<item><title><![CDATA[${it.title}]]></title><link>${it.link}</link><pubDate>${new Date(it.pubDate).toUTCString()}</pubDate><description><![CDATA[${it.summary}]]></description></item>`).join('\n');
   const rss = `<?xml version="1.0"?><rss version="2.0"><channel><title>AI News</title><link>https://ainews.ukiuni.com/</link><description>AI related news</description>${rssItems}</channel></rss>`;
