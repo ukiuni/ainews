@@ -6,13 +6,17 @@ set -euo pipefail
 
 LOCKFILE="/tmp/aipages-build.lock"
 PIDFILE="${LOCKFILE}.pid"
+WORKLOG="$(dirname "$0")/../worklog.md"
 
 # Acquire lock: if lock exists and process alive, exit. Otherwise create lock and write PID.
 if [ -e "$LOCKFILE" ]; then
   if [ -e "$PIDFILE" ]; then
     oldpid=$(cat "$PIDFILE" 2>/dev/null || echo "")
     if [ -n "$oldpid" ] && kill -0 "$oldpid" 2>/dev/null; then
-      echo "Another build is running (PID $oldpid). Exiting." >&2
+      msg="Another build is running (PID $oldpid). Exiting."
+      echo "$msg" >&2
+      # append to worklog
+      printf "%s: SKIP - %s\n" "$(date -u '+%Y-%m-%d %H:%M:%S UTC')" "$msg" >> "$WORKLOG" || true
       exit 0
     else
       echo "Stale lock found. Removing." >&2
@@ -38,36 +42,60 @@ trap cleanup EXIT INT TERM
 # Move to the aipages directory
 cd ~/clawd/projects/aipages
 
-# Run fetch_and_build.js script
-node src/fetch_and_build.js
+# Run fetch_and_build.js script and capture output
+BUILD_LOG=/tmp/aipages_build_$(date +%s).log
+if node src/fetch_and_build.js > "$BUILD_LOG" 2>&1; then
+  BUILD_STATUS=success
+else
+  BUILD_STATUS=fail
+fi
 
 # Git operations
 # Add changes
-# Only add tracked files and data to avoid adding stray temp files
-git add -A
+git add -A || true
 
-# If there are changes to commit
+TIMESTAMP="$(date -u '+%Y-%m-%d %H:%M:%S UTC')"
+
 if git diff --cached --quiet; then
   echo "No changes to commit." >&2
+  printf "%s: NO_CHANGES\n" "$TIMESTAMP" >> "$WORKLOG" || true
 else
-  git commit -m "Auto: Updated items using fetch_and_build.js"
-  # Push with simple retry logic (3 attempts)
-  attempts=0
-  until [ "$attempts" -ge 3 ]
-  do
-    if git push origin main; then
-      echo "Push successful"
-      break
+  if git commit -m "Auto: Updated items using fetch_and_build.js"; then
+    # Push with simple retry logic (3 attempts)
+    attempts=0
+    PUSH_OK=0
+    until [ "$attempts" -ge 3 ]
+    do
+      if git push origin main; then
+        echo "Push successful"
+        PUSH_OK=1
+        break
+      fi
+      attempts=$((attempts+1))
+      echo "Push failed, retrying ($attempts/3)..." >&2
+      sleep 5
+    done
+    if [ "$PUSH_OK" -ne 1 ]; then
+      echo "Push failed after 3 attempts." >&2
+      printf "%s: PUSH_FAIL after commit\n" "$TIMESTAMP" >> "$WORKLOG" || true
+      # attach last lines of build log
+      tail -n 200 "$BUILD_LOG" >> "$WORKLOG" || true
+      exit 1
+    else
+      printf "%s: BUILD=%s COMMIT=YES PUSH=YES\n" "$TIMESTAMP" "$BUILD_STATUS" >> "$WORKLOG" || true
     fi
-    attempts=$((attempts+1))
-    echo "Push failed, retrying ($attempts/3)..." >&2
-    sleep 5
-  done
-  if [ "$attempts" -ge 3 ]; then
-    echo "Push failed after 3 attempts." >&2
+  else
+    echo "Git commit failed" >&2
+    printf "%s: COMMIT_FAIL\n" "$TIMESTAMP" >> "$WORKLOG" || true
+    tail -n 200 "$BUILD_LOG" >> "$WORKLOG" || true
     exit 1
   fi
 fi
 
-# Output success message
+# Append a short summary of build log to worklog (last 50 lines)
+printf "-- Build log tail (%s) --\n" "$TIMESTAMP" >> "$WORKLOG" || true
+tail -n 50 "$BUILD_LOG" >> "$WORKLOG" || true
+printf "-- End build log --\n\n" >> "$WORKLOG" || true
+
+# Output success message and cleanup
 echo "Build and push successful!"
