@@ -42,6 +42,14 @@ trap cleanup EXIT INT TERM
 # Move to the aipages directory
 cd ~/clawd/projects/aipages
 
+# Attempt to update translations first (non-fatal)
+TRANS_LOG=/tmp/aipages_trans_$(date +%s).log
+if node scripts/update_translations.js > "$TRANS_LOG" 2>&1; then
+  echo "update_translations: success" >> "$TRANS_LOG"
+else
+  echo "update_translations: failed (continuing)" >> "$TRANS_LOG"
+fi
+
 # Run fetch_and_build.js script and capture output
 BUILD_LOG=/tmp/aipages_build_$(date +%s).log
 if node src/fetch_and_build.js > "$BUILD_LOG" 2>&1; then
@@ -49,6 +57,10 @@ if node src/fetch_and_build.js > "$BUILD_LOG" 2>&1; then
 else
   BUILD_STATUS=fail
 fi
+# attach translation log tail to build log for auditing
+printf "-- translation log tail --\n" >> "$BUILD_LOG" || true
+tail -n 50 "$TRANS_LOG" >> "$BUILD_LOG" || true
+printf "-- end translation log tail --\n" >> "$BUILD_LOG" || true
 
 # Git operations
 # Add changes
