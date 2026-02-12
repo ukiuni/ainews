@@ -6,7 +6,7 @@ set -euo pipefail
 
 LOCKFILE="/tmp/aipages-build.lock"
 PIDFILE="${LOCKFILE}.pid"
-WORKLOG="$(dirname "$0")/../worklog.md"
+WORKLOG="/home/unirdp/clawd/projects/aipages/worklog.md"
 
 # Acquire lock: if lock exists and process alive, exit. Otherwise create lock and write PID.
 if [ -e "$LOCKFILE" ]; then
