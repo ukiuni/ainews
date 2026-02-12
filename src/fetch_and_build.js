@@ -97,8 +97,24 @@ const feeds = [
   }
 
   const { JSDOM } = require('jsdom');
-  for(const it of newItems){
-    // fetch full article if needed
+
+  // utility: limited concurrency pool for async tasks
+  async function mapWithConcurrency(arr, limit, fn){
+    const results = new Array(arr.length);
+    let idx = 0;
+    const workers = new Array(Math.min(limit, arr.length)).fill(0).map(async ()=>{
+      while(true){
+        const i = idx++;
+        if(i>=arr.length) break;
+        try{ results[i] = await fn(arr[i], i); }catch(e){ results[i]=undefined; }
+      }
+    });
+    await Promise.all(workers);
+    return results;
+  }
+
+  // fetch full article bodies with concurrency limit (3)
+  await mapWithConcurrency(newItems, 3, async (it)=>{
     try{
       if(!it.summary || it.summary.length < 120){
         try{
@@ -114,7 +130,54 @@ const feeds = [
         }catch(e){ /* ignore fetch errors */ }
       }
     }catch(e){}
+  });
 
+  // scoring for AI relevance
+  const aiKeywords = ['ai','artificial intelligence','machine learning','deep learning','neural','llm','gpt','chatbot','model','openai','transformer','language model','generator','reinforcement learning'];
+  function scoreRelevance(it){
+    const text = ((it.title||'') + ' ' + (it.summary||'') + ' ' + (it.full_text||'')).toLowerCase();
+    let score = 0;
+    for(const k of aiKeywords){
+      const re = new RegExp(k.replace(/[-/\\^$*+?.()|[\]{}]/g,'\\$&'),'g');
+      const m = text.match(re);
+      if(m) score += Math.min(m.length, 5); // cap per keyword
+    }
+    // boost for source names that are AI-focused (simple heuristic)
+    if((it.source||'').toLowerCase().includes('ai')) score += 2;
+    return score;
+  }
+
+  // compute relevance scores
+  for(const it of newItems){ it._rel = scoreRelevance(it); }
+
+  // close copilot session if opened (we'll use copilot for translations per-item later only for selected ones)
+  // NOTE: keep session open if we created it earlier; we'll recreate if needed below.
+  if(copilotSession){ try{ await copilotSession.destroy(); await copilotSession.client.stop(); }catch(e){} }
+
+  // combine old items and new items for chronology but select top relevant 20 from newItems + oldItems pool
+  const combined = newItems.concat(oldItems).sort((a,b)=>new Date(b.pubDate)-new Date(a.pubDate));
+  // select candidates: take up to 50 most recent from combined, then score and choose top 20
+  const recentCandidates = combined.slice(0,50);
+  recentCandidates.sort((a,b)=> (b._rel||0) - (a._rel||0) || (new Date(b.pubDate)-new Date(a.pubDate)));
+  const selected = recentCandidates.slice(0,20);
+
+  // mark selected set for paging/render
+  const selectedSet = new Set(selected.map(i=>i.link || (i.title+'|'+i.pubDate)));
+
+  // final list: selected only, sorted by date desc
+  const final = selected.sort((a,b)=>new Date(b.pubDate)-new Date(a.pubDate));
+
+  // ensure short_summary fields for final items and run translations/summaries for those only
+  // Re-init copilot if available
+  if(useCopilot){
+    try{
+      const client = new CopilotClient({ logLevel: 'error' });
+      copilotSession = await client.createSession({ tools: [] });
+    }catch(e){ console.error('copilot init failed', e.message); useCopilot = false; }
+  }
+
+  // For each final item, translate title and summarize if needed (sequential but limited by 3 concurrent ops)
+  await mapWithConcurrency(final, 3, async (it)=>{
     if(it.title){
       try{
         if(useCopilot && copilotSession){
@@ -124,8 +187,6 @@ const feeds = [
         }
       }catch(e){ it.translated_title_ja = ''; }
     }
-
-    // generate summary: prefer copilot (using full_text if available), otherwise fallback to short_summary
     try{
       if(useCopilot && copilotSession){
         const contentText = it.full_text || it.content || it.contentSnippet || it.summary || '';
@@ -134,17 +195,13 @@ const feeds = [
           if(s) it.summary = s;
         }
       }
-    }catch(e){ /* ignore, keep existing summary */ }
-
-    // ensure short_summary exists
+    }catch(e){ /* ignore */ }
     it.short_summary = it.summary ? (it.summary.length>200? it.summary.slice(0,197)+'...': it.summary) : '';
-  }
+  });
 
-  // close copilot session if opened
   if(copilotSession){ try{ await copilotSession.destroy(); await copilotSession.client.stop(); }catch(e){} }
 
-  // combine and sort desc
-  const items = newItems.concat(oldItems).sort((a,b)=>new Date(b.pubDate)-new Date(a.pubDate));
+  // final is already selected and processed
   // keep unique by link + title+pubDate hash
   const uniq = [];
   const seen2 = new Set();
