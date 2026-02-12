@@ -58,9 +58,9 @@ else
   BUILD_STATUS=fail
 fi
 # attach translation log tail to build log for auditing
-printf "-- translation log tail --\n" >> "$BUILD_LOG" || true
+printf "%s\n" "-- translation log tail --" >> "$BUILD_LOG" || true
 tail -n 50 "$TRANS_LOG" >> "$BUILD_LOG" || true
-printf "-- end translation log tail --\n" >> "$BUILD_LOG" || true
+printf "%s\n" "-- end translation log tail --" >> "$BUILD_LOG" || true
 
 # Git operations
 # Add changes
@@ -105,9 +105,9 @@ else
 fi
 
 # Append a short summary of build log to worklog (last 50 lines)
-printf "-- Build log tail (%s) --\n" "$TIMESTAMP" >> "$WORKLOG" || true
+printf "%s\n" "-- Build log tail (%s) --" "$TIMESTAMP" >> "$WORKLOG" || true
 tail -n 50 "$BUILD_LOG" >> "$WORKLOG" || true
-printf "-- End build log --\n\n" >> "$WORKLOG" || true
+printf "%s\n\n" "-- End build log --" >> "$WORKLOG" || true
 
 # Output success message and cleanup
 echo "Build and push successful!"
